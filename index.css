@@ -1,0 +1,279 @@
+@font-face {
+    font-family: 'Smythe', cursive;
+    src: url('https://fonts.googleapis.com/css2?family=Smythe&display=swap');
+}
+
+body {
+    margin: 0 20% 0 20%
+}
+
+.main {
+    margin: 0;
+}
+
+.headPicture {
+    position: absolute;
+    height: 27rem;
+    left: 0px;
+    top: -153px;
+    width: 60%;
+    object-position: 0 50%;
+    object-fit: cover;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 50rem;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2.5rem 4.5rem 4rem;
+    text-align: left;
+}
+
+.segment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.jimmysDiner {
+    padding-bottom: 0px;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    font-family: 'Smythe', cursive;
+    font-size: 36px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.quotes {
+    padding-top: 0px;
+    margin-top: 0.5rem;
+    text-align: left;
+    font-family: 'Smythe', cursive;
+    font-size: 18.42px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.items {
+    margin-top: 4rem;
+}
+
+.item {
+    margin: 0.5rem 0;
+    padding: 1rem 1rem 0;
+    font-family: 'Inter';
+    display: flex;
+    flex-flow: row
+}
+
+.itemEmoji {
+    font-size: 4vw;
+    width: 100px;
+    margin: 0 0 0 1rem;
+    padding-right: 1rem;
+}
+
+.itemStats {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 5px;
+    font-family: 'Inter';
+    font-size: 14px;
+    margin: auto 0 auto 0;
+}
+
+.itemName {
+    padding: 0.5 rem;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.itemIngr {
+    color: silver;
+}
+
+.itemPrice {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.addToCart {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin: 2rem;
+
+}
+
+.addItem {
+    display: flex;
+    gap: 2px;
+}
+
+.plus {
+    size: 30px;
+    font-size: 30px;
+    cursor: pointer;
+    color: silver;
+
+
+}
+
+.orderListMain {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+.orderedItemLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+
+.orderedItemLineLeft {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+}
+
+.orderedItemPrice {
+    font-family: 'Smythe', cursive;
+}
+
+.orderTitle {
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.orderedItemName {
+    font-family: 'Smythe', cursive;
+    font-size: 24px;
+    margin: 0;
+    align-self: center;
+}
+
+.remove {
+    margin: 0;
+    padding: 0 1.5rem;
+    color: silver;
+    font-size: 10px;
+    align-self: center;
+    cursor: pointer;
+}
+
+.solid {
+    margin: 2rem;
+}
+
+.strong {
+    margin: 2rem;
+}
+
+.totalPrice {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Smythe', cursive;
+}
+
+.totalPriceLabel {
+    font-family: 'Smythe', cursive;
+    font-size: 24px;
+    margin: 0 2rem;
+    align-self: center;
+}
+
+.sumOfOrderedItems {
+    margin: 0 2rem;
+}
+
+.submitOrder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 60%;
+    text-align-last: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    background-color: #16DB99;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.reveal {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    left: 25%;
+    top: 20%;
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    flex-direction: column;
+    border: none;
+    box-shadow: 0px 0px 250px 10px #757575;
+}
+
+.enterText {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.enter {
+    padding-top: 1.25rem;
+    padding-left: 1rem;
+    margin: 1rem;
+    resize: none;
+    text-align: left;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: #b5b5b5;
+}
+
+.pay {
+    background-color: #16db99;
+    color: #fff;
+    width: 80%;
+    border: none;
+    margin: 1rem auto;
+    height: 3rem;
+    cursor: pointer;
+}
+
+.thanksDiv {
+    background-color: #ECFDF5;
+    width: 80%;
+    margin: auto;
+}
+
+.sayThanks {
+    color: #065F46;
+    padding: 1rem;
+    padding-top: 3rem;
+    margin: 0;
+    font-family: 'Smythe', cursive;
+    font-size: 24px;
+    font-feature-settings: "hwid";
+    letter-spacing: -1.5px;
+    text-align: center;
+    height: 3rem;
+
+}
